@@ -71,12 +71,12 @@ public class ToyAutomat {
         return str;
     }
 
-    
+
     public static void setProbs(int c, int  s, int e){
         SoftToy.setProbability(s);
         ElectroToy.setProbability(e);
         ConstructorToy.setProbability(c);
-        
+
     }
 
 
